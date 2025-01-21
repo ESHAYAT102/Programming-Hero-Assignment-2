@@ -115,6 +115,7 @@ nav a {
 }
 
 nav {
+  z-index: 10;
   display: flex;
   justify-content: space-around;
   position: fixed;
@@ -276,6 +277,88 @@ header p {
 
 #standard-curriculum h2 {
   margin: 32px;
+}
+
+#story {
+  background-image: url("./assets/bg.png"),
+    linear-gradient(180deg, #f7f7f7 30%, #fea301 200%);
+  padding: 0px 100px;
+}
+
+#story > h1 {
+  font-size: 64px;
+  text-align: center;
+  margin: 32px;
+}
+
+.parent {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.card-large {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-bottom: 32px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-bottom: 32px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 24px;
+}
+
+.card-large img,
+.card img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card h2 {
+  font-size: 16px;
+  max-width: 300px;
+  margin: 12px 24px;
+}
+
+.card-large h2 {
+  width: 500px;
+  margin: 24px;
+}
+
+.details {
+  width: 500px;
+  margin: 24px;
+}
+
+.badge {
+  background-color: #3cd8e8;
+  color: #ffffff;
+  border-radius: 200px;
+  width: fit-content;
+  padding: 12px 24px;
+  position: relative;
+  top: -24px;
+  left: 32px;
+  font-weight: 600;
+}
+
+.box2 {
+  display: flex;
+  gap: 24px;
+}
+
+.btn-box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding-bottom: 100px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
