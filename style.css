@@ -282,7 +282,7 @@ header p {
 #story {
   background-image: url("./assets/bg.png"),
     linear-gradient(180deg, #f7f7f7 30%, #fea301 200%);
-  padding: 0px 100px;
+  padding: 100px 0px;
 }
 
 #story > h1 {
@@ -358,7 +358,49 @@ header p {
   justify-content: center;
   align-items: center;
   margin: 100px;
-  padding-bottom: 100px;
+}
+
+footer > div {
+  width: fit-content;
+}
+
+.footer-details {
+  width: 360px;
+  margin-top: 32px;
+}
+
+.link-box {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link-box a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo {
+  scale: 0.8;
+}
+
+.footer-logo {
+  width: 36px;
+  margin-top: 16px;
+}
+
+.footer-main-box {
+  display: flex;
+  gap: 16px;
+}
+
+footer {
+  padding: 100px;
+  background-color: #01acfd;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
@@ -377,10 +419,6 @@ header p {
 }
 
 @media screen and (max-width: 999px) {
-  body {
-    margin: 20px;
-  }
-
   header img {
     width: 80vw;
   }
@@ -413,9 +451,27 @@ header p {
   #card-container {
     flex-direction: column;
     justify-content: center;
+    margin: 20px;
   }
 
   #arrow-container {
     display: none;
+  }
+
+  #story {
+    margin: 0px;
+  }
+
+  .box1 {
+    display: none;
+  }
+
+  .box2 {
+    gap: 0px;
+  }
+
+  .card {
+    margin: -48px -20px;
+    scale: 0.8;
   }
 }
