@@ -7,7 +7,6 @@
 }
 
 body {
-  margin: 0px 150px;
   background-color: #f7f7f7;
   color: #111111;
 }
@@ -185,8 +184,9 @@ header p {
 }
 
 #standard-curriculum {
+  background-image: url("./assets/bg.png");
+  padding: 100px 150px;
   text-align: center;
-  padding: 100px 0px;
 }
 
 #standard-curriculum > h1 {
@@ -279,6 +279,10 @@ header p {
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
+  header {
+    margin: 0px 100px;
+  }
+
   #card-container {
     flex-direction: column;
     justify-content: center;
@@ -294,12 +298,24 @@ header p {
     margin: 20px;
   }
 
+  header img {
+    width: 80vw;
+  }
+
+  #standard-curriculum {
+    padding: 100px 0px;
+  }
+
   .nav-links {
     display: none;
   }
 
   nav button {
     display: none;
+  }
+
+  nav {
+    border-bottom: 1px solid #fea301;
   }
 
   .burger-container {
