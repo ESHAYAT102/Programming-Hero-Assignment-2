@@ -416,6 +416,11 @@ footer {
   #arrow-container {
     display: none;
   }
+
+  footer {
+    flex-direction: column;
+    gap: 64px;
+  }
 }
 
 @media screen and (max-width: 999px) {
@@ -473,5 +478,11 @@ footer {
   .card {
     margin: -48px -20px;
     scale: 0.8;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 64px;
+    padding: 36px;
   }
 }
