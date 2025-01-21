@@ -184,6 +184,75 @@ header p {
   scale: 0.95;
 }
 
+#standard-curriculum {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+#standard-curriculum > h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+
+#standard-curriculum > div {
+  display: flex;
+  gap: 32px;
+  margin: 64px 0px;
+}
+
+#standard-curriculum > div > :first-child {
+  background: #def5ff;
+  background: linear-gradient(180deg, #def5ff 0%, #ffffff 50%);
+  border-radius: 20px;
+  border: 2px solid #def5ff;
+  padding: 32px;
+}
+
+#standard-curriculum > div > :first-child > button {
+  background-color: transparent;
+  color: #64c8ff;
+  border: none;
+  margin-top: 32px;
+}
+
+#standard-curriculum > div > :nth-child(2) {
+  background: #fff4dc;
+  background: linear-gradient(180deg, #fff4dc 0%, #ffffff 50%);
+  border-radius: 20px;
+  border: 2px solid #fff4dc;
+  padding: 32px;
+}
+
+#standard-curriculum > div > :nth-child(2) > button {
+  background-color: transparent;
+  color: #f0aa00;
+  border: none;
+  margin-top: 32px;
+}
+
+#standard-curriculum > div > :last-child {
+  background: #eee1ff;
+  background: linear-gradient(180deg, #eee1ff 0%, #ffffff 50%);
+  border-radius: 20px;
+  border: 2px solid #f2e8ff;
+  padding: 32px;
+}
+
+#standard-curriculum > div > :last-child > button {
+  background-color: transparent;
+  color: #8700ff;
+  border: none;
+  margin-top: 32px;
+}
+
+#standard-curriculum img {
+  height: 100px;
+}
+
+#standard-curriculum h2 {
+  margin: 32px;
+}
+
 @media screen and (max-width: 1000px) {
   .nav-links {
     display: none;
