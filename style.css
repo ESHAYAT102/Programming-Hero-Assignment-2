@@ -194,13 +194,13 @@ header p {
   margin-bottom: 32px;
 }
 
-#standard-curriculum > div {
+#card-container {
   display: flex;
   gap: 32px;
   margin: 64px 0px;
 }
 
-#standard-curriculum > div > :first-child {
+#card-container > :first-child {
   background: #def5ff;
   background: linear-gradient(180deg, #def5ff 0%, #ffffff 50%);
   border-radius: 20px;
@@ -208,14 +208,14 @@ header p {
   padding: 32px;
 }
 
-#standard-curriculum > div > :first-child > button {
+#card-container > :first-child > button {
   background-color: transparent;
   color: #64c8ff;
   border: none;
   margin-top: 32px;
 }
 
-#standard-curriculum > div > :nth-child(2) {
+#card-container > :nth-child(2) {
   background: #fff4dc;
   background: linear-gradient(180deg, #fff4dc 0%, #ffffff 50%);
   border-radius: 20px;
@@ -223,14 +223,14 @@ header p {
   padding: 32px;
 }
 
-#standard-curriculum > div > :nth-child(2) > button {
+#card-container > :nth-child(2) > button {
   background-color: transparent;
   color: #f0aa00;
   border: none;
   margin-top: 32px;
 }
 
-#standard-curriculum > div > :last-child {
+#card-container > :last-child {
   background: #eee1ff;
   background: linear-gradient(180deg, #eee1ff 0%, #ffffff 50%);
   border-radius: 20px;
@@ -238,11 +238,36 @@ header p {
   padding: 32px;
 }
 
-#standard-curriculum > div > :last-child > button {
+#card-container > :last-child > button {
   background-color: transparent;
   color: #8700ff;
   border: none;
   margin-top: 32px;
+}
+
+#arrow-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  background-color: #fea301;
+  color: #ffffff;
+  border: none;
+  border-radius: 100%;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.arrow:hover {
+  scale: 1.05;
+}
+
+.arrow:active {
+  scale: 0.95;
 }
 
 #standard-curriculum img {
