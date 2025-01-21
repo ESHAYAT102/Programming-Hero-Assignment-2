@@ -284,10 +284,6 @@ header p {
     justify-content: center;
   }
 
-  #card-container > div {
-    width: 90%;
-  }
-
   #arrow-container {
     display: none;
   }
