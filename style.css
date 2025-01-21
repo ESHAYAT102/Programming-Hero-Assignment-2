@@ -128,6 +128,10 @@ nav {
   -webkit-backdrop-filter: blur(10px);
 }
 
+marquee {
+  margin-top: 100px;
+}
+
 .orange {
   color: #fea301;
 }
